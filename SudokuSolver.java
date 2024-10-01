@@ -73,7 +73,7 @@ public class SudokuSolver {
     }
 
     public boolean isValidBoard(int[][] board) {
-        // check for input greater than 9 or less than 1
+        
         for (int i = 0; i < SIZE; i++) {
             for (int j = 0; j < SIZE; j++) {
                 if (board[i][j] != 0) {
